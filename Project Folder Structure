@@ -1,0 +1,22 @@
+Smart-Intrusion-Detection-System/
+│
+├── README.md
+├── network_design/
+│   ├── network_topology.pkt       # Cisco Packet Tracer file
+│   └── screenshots/               # Images showing your network setup
+│       ├── topology.png
+│       └── device_configs.png
+│
+├── python_ids/
+│   ├── ids_script.py              # Python script for Intrusion Detection
+│   ├── requirements.txt           # List of Python libraries needed
+│   └── sample_captures/            # Sample pcap files for testing IDS
+│       └── sample.pcap
+│
+├── reports/
+│   ├── project_report.docx         # Your final project report (optional for now)
+│   └── setup_steps.txt             # Steps you followed for setting up network
+│
+└── documentation/
+    ├── project_description.md     # About your project
+    └── how_ids_works.md            # How your IDS detects intrusions
