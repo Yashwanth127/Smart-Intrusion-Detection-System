@@ -1,0 +1,38 @@
+# Smart Intrusion Detection System (IDS) Using Python and Cisco Packet Tracer
+
+## 📚 Project Overview
+This project simulates a network environment using Cisco Packet Tracer and implements a basic Intrusion Detection System (IDS) using Python and Wireshark. It aims to monitor, detect, and alert unusual activities such as port scanning and SYN flooding within the network.
+
+## 🛠️ Technologies Used
+- Cisco Packet Tracer (Network Simulation)
+- Wireshark (Packet Capturing)
+- Python 3 (Custom IDS Development)
+- Scapy (Python packet analysis library)
+
+## 🏗️ Network Design
+- 1 Router
+- 1 Switch
+- 2-3 Client PCs
+- 1 Server
+- 1 Mobile Device (optional for testing)
+
+**Files:**
+- `network_design/network_topology.pkt` : Simulated network file
+- `network_design/screenshots/` : Screenshots of network layout
+
+## 💻 Intrusion Detection System (IDS)
+- Captures packets using Scapy or imports .pcap files
+- Analyzes packet behavior
+- Detects suspicious activities like:
+  - Port Scanning
+  - SYN Flooding
+  - Malicious IP detection
+- Alerts the user about potential attacks
+
+**Files:**
+- `python_ids/ids_script.py` : IDS Python script
+- `python_ids/sample_captures/` : Sample pcap files for testing
+
+## 📋 Installation & Setup
+1. Install Python 3
+2. Install dependencies:  
